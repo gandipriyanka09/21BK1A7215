@@ -3,7 +3,7 @@ import '../App.css';
 function NavBar() {
   return (
     
-    <div className="navbar-container"> {/* Apply a CSS class for styling */}
+    <div className="navbar-container"> 
     <header>
         <h1>Top Products</h1>
     </header>

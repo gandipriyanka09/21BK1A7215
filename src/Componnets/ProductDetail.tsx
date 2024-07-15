@@ -45,7 +45,7 @@ const getProductDetails = (productId: string) => {
     },
   ];
 
-  // Find the product with matching productId
+  
   const product = products.find(item => item.id === productId);
   return product;
 };
@@ -53,7 +53,7 @@ const getProductDetails = (productId: string) => {
 const ProductDetail: React.FC = () => {
   const { productId } = useParams<ProductDetailParams>();
 
-  // Ensure productId is defined before using it
+  
   if (!productId) {
     return <div>Invalid Product ID</div>;
   }
